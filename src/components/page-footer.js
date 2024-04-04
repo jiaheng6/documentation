@@ -80,6 +80,18 @@ const PageFooter = () => {
         ) : null}
         <Contributors contributors={contributors} latestCommit={latestCommit} />
       </Box>
+    <Box sx={{
+        borderWidth: 0,
+        borderTopWidth: 1,
+        borderRadius: 0,
+        mt: 8,
+        py: 5,
+        borderStyle: 'solid',
+        borderColor: 'border.default',
+        fontWeight: 'bold',
+    }}>
+        <Text sx={{fontSize: 1, color: 'fg.muted', mt: 1}}>声明：npm 及相关 logo 的版权归 npmjs.com 所有。本站点仅用于 npm 中文文档，与 npmjs.com 没有任何关系。由于译者水平有限，且避免产生误解，条款和政策内容不进行翻译，关于这部分，请移步官网查看最新内容。</Text>
+    </Box>
     </Box>
   )
 }

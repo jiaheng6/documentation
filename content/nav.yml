@@ -25,7 +25,7 @@
           url: /accessing-npm-using-2fa
         - title: 恢复启用了双重验证的账户
           url: /recovering-your-2fa-enabled-account
-    - title: 管理你的npm账户
+    - title: 账户管理
       shortName: 账户管理
       url: /getting-started/managing-your-npm-user-account
       children:
@@ -37,57 +37,57 @@
           url: /deleting-your-npm-user-account
         - title: 导出个人资料
           url: /requesting-your-data
-    - title: Paying for your npm user account
-      shortName: Paying for your account
+    - title: 费用与支付
+      shortName: 费用与支付
       url: /getting-started/paying-for-your-npm-user-account
       children:
-        - title: Upgrading to a paid user account plan
+        - title: 升级为付费帐户
           url: /upgrading-to-a-paid-user-account-plan
-        - title: Viewing, downloading, and emailing receipts for your npm user account
+        - title: 查看、下载、发送帐户收据
           url: /viewing-downloading-and-emailing-receipts-for-your-user-account
-        - title: Updating user account billing settings
+        - title: 修改账户支付设置
           url: /updating-user-account-billing-settings
-        - title: Downgrading to a free user account plan
+        - title: 降级为免费账户
           url: /downgrading-to-a-free-user-account-plan
-    - title: Configuring your local environment
+    - title: 本地环境配置
       shortName: Configuring
       url: /getting-started/configuring-your-local-environment
       children:
-        - title: 关于NPM CLI versions
+        - title: npm cli 版本
           url: /about-npm-versions
-        - title: Downloading and installing Node.js and npm
+        - title: Node.js 和 npm 的下载安装
           url: /downloading-and-installing-node-js-and-npm
-    - title: Troubleshooting
+    - title: 问题排查
       url: /getting-started/troubleshooting
       children:
-        - title: Generating and locating npm-debug.log files
+        - title: npm-debug.log文件
           url: /generating-and-locating-npm-debug.log-files
-        - title: Common errors
+        - title: 常见错误
           url: /common-errors
-        - title: Try the latest stable version of node
+        - title: 尝试最新稳定版Node
           url: /try-the-latest-stable-version-of-node
-        - title: Try the latest stable version of npm
+        - title: 尝试最新稳定版NPM
           url: /try-the-latest-stable-version-of-npm
-- title: Packages and modules
+- title: 包和模块
   url: /packages-and-modules
   children:
-    - title: Introduction to packages and modules
-      shortName: Introduction
+    - title: 介绍
+      shortName: 介绍
       url: /packages-and-modules/introduction-to-packages-and-modules
       children:
-        - title: About the public npm registry
+        - title: 关于公共源
           url: /about-the-public-npm-registry
-        - title: About packages and modules
+        - title: 关于包和模块
           url: /about-packages-and-modules
         - title: About scopes
           url: /about-scopes
-        - title: About public packages
+        - title: 关于公共包
           url: /about-public-packages
-        - title: About private packages
+        - title: 关于私有包
           url: /about-private-packages
-        - title: npm package scope, access level, and visibility
+        - title: 包的适用范围、访问级别以及可见性
           url: /package-scope-access-level-and-visibility
-    - title: Contributing packages to the registry
+    - title: 发布一个公共包
       shortName: Contributing
       url: /packages-and-modules/contributing-packages-to-the-registry
       children:
@@ -111,7 +111,7 @@
           url: /about-semantic-versioning
         - title: Adding dist-tags to packages
           url: /adding-dist-tags-to-packages
-    - title: Updating and managing your published packages
+    - title: 修改、管理已发布的包
       shortName: Updating and managing
       url: /packages-and-modules/updating-and-managing-your-published-packages
       children:
@@ -127,7 +127,7 @@
           url: /transferring-a-package-from-a-user-account-to-another-user-account
         - title: Unpublishing packages from the registry
           url: /unpublishing-packages-from-the-registry
-    - title: Getting packages from the registry
+    - title: 获取和使用公共包
       shortName: Getting packages
       url: /packages-and-modules/getting-packages-from-the-registry
       children:
@@ -147,7 +147,7 @@
           url: /using-deprecated-packages
         - title: Uninstalling packages and dependencies
           url: /uninstalling-packages-and-dependencies
-    - title: Securing your code
+    - title: 代码安全
       url: /packages-and-modules/securing-your-code
       children:
         - title: About audit reports
@@ -164,121 +164,6 @@
           url: /requiring-2fa-for-package-publishing-and-settings-modification
         - title: Reporting malware in an npm package
           url: /reporting-malware-in-an-npm-package
-- title: Integrations
-  url: /integrations
-  children:
-    - title: Integrating npm with external services
-      shortName: Integrating with external services
-      url: /integrations/integrating-npm-with-external-services
-      children:
-        - title: About access tokens
-          url: /about-access-tokens
-        - title: Creating and viewing access tokens
-          url: /creating-and-viewing-access-tokens
-        - title: Revoking access tokens
-          url: /revoking-access-tokens
-        - title: Using private packages in a CI/CD workflow
-          url: /using-private-packages-in-a-ci-cd-workflow
-        - title: Docker and private modules
-          url: /docker-and-private-modules
-- title: Organizations
-  url: /organizations
-  children:
-    - title: Creating and managing organizations
-      shortName: Creating
-      url: /organizations/creating-and-managing-organizations
-      children:
-        - title: Creating an organization
-          url: /creating-an-organization
-        - title: Converting your user account to an organization
-          url: /converting-your-user-account-to-an-organization
-        - title: Requiring two-factor authentication in your organization
-          url: /requiring-two-factor-authentication-in-your-organization
-        - title: Renaming an organization
-          url: /renaming-an-organization
-        - title: Deleting an organization
-          url: /deleting-an-organization
-    - title: Paying for your organization
-      shortName: Paying
-      url: /organizations/paying-for-your-organization
-      children:
-        - title: Upgrading to a paid organization plan
-          url: /upgrading-to-a-paid-organization-plan
-        - title: Viewing, downloading, and emailing receipts for your organization
-          url: /viewing-downloading-and-emailing-receipts-for-your-organization
-        - title: Updating organization billing settings
-          url: /updating-organization-billing-settings
-        - title: Downgrading to a free organization plan
-          url: /downgrading-to-a-free-organization-plan
-    - title: Managing organization members
-      shortName: Managing members
-      url: /organizations/managing-organization-members
-      children:
-        - title: Adding members to your organization
-          url: /adding-members-to-your-organization
-        - title: Accepting or rejecting an organization invitation
-          url: /accepting-or-rejecting-an-organization-invitation
-        - title: Organization roles and permissions
-          url: /organization-roles-and-permissions
-        - title: Managing organization permissions
-          url: /managing-organization-permissions
-        - title: Removing members from your organization
-          url: /removing-members-from-your-organization
-    - title: Managing teams
-      url: /organizations/managing-teams
-      children:
-        - title: About the developers team
-          url: /about-developers-team
-        - title: Creating teams
-          url: /creating-teams
-        - title: Adding organization members to teams
-          url: /adding-organization-members-to-teams
-        - title: Removing organization members from teams
-          url: /removing-organization-members-from-teams
-        - title: Managing team access to organization packages
-          url: /managing-team-access-to-organization-packages
-        - title: Removing teams
-          url: /removing-teams
-    - title: Managing organization packages
-      shortName: Managing packages
-      url: /organizations/managing-organization-packages
-      children:
-        - title: About organization scopes and packages
-          url: /about-organization-scopes-and-packages
-        - title: Configuring your npm client with your organization settings
-          url: /configuring-your-npm-client-with-your-organization-settings
-        - title: Creating and publishing an organization scoped package
-          url: /creating-and-publishing-an-organization-scoped-package
-- title: Policies
-  url: /policies
-  children:
-    - title: Terms of Use
-      url: /policies/terms
-    - title: Open Source Terms
-      url: /policies/open-source-terms
-    - title: Private Terms
-      url: /policies/private-terms
-    - title: Code of Conduct
-      url: /policies/conduct
-    - title: Package Name Disputes
-      url: /policies/disputes
-    - title: npm License
-      url: /policies/npm-license
-    - title: Privacy Policy
-      url: /policies/privacy
-    - title: Unpublish Policy
-      url: /policies/unpublish
-    - title: Copyright and DMCA Policy
-      url: /policies/dmca
-    - title: Logos and Usage
-      url: /policies/logos-and-usage
-    - title: Security
-      url: /policies/security
-    - title: Replication and web crawler policy
-      url: /policies/crawlers
-- title: Threats and mitigations
-  shortName: Threats and mitigations
-  url: /threats-and-mitigations
 - title: npm CLI
   shortName: CLI
   url: /cli
@@ -338,7 +223,7 @@
             - title: npm dist-tag
               url: /cli/v6/commands/npm-dist-tag
               description: Modify package distribution tags
-            - title: NPM中文网
+            - title: NPM中文文档
               url: /cli/v6/commands/npm-docs
               description: Docs for a package in a web browser maybe
             - title: npm doctor
@@ -514,7 +399,7 @@
             - title: Scripts
               url: /cli/v6/using-npm/scripts
               description: How npm handles the "scripts" field
-            - title: Organizations
+            - title: 组织
               url: /cli/v6/using-npm/orgs
               description: Working with teams & organizations
             - title: Developers
@@ -578,7 +463,7 @@
             - title: npm dist-tag
               url: /cli/v7/commands/npm-dist-tag
               description: Modify package distribution tags
-            - title: NPM中文网
+            - title: NPM中文文档
               url: /cli/v7/commands/npm-docs
               description: Docs for a package in a web browser maybe
             - title: npm doctor
@@ -772,7 +657,7 @@
             - title: Workspaces
               url: /cli/v7/using-npm/workspaces
               description: Working with workspaces
-            - title: Organizations
+            - title: 组织
               url: /cli/v7/using-npm/orgs
               description: Working with teams & organizations
             - title: Developers
@@ -836,7 +721,7 @@
             - title: npm dist-tag
               url: /cli/v8/commands/npm-dist-tag
               description: Modify package distribution tags
-            - title: NPM中文网
+            - title: NPM中文文档
               url: /cli/v8/commands/npm-docs
               description: Docs for a package in a web browser maybe
             - title: npm doctor
@@ -1039,7 +924,7 @@
             - title: Workspaces
               url: /cli/v8/using-npm/workspaces
               description: Working with workspaces
-            - title: Organizations
+            - title: 组织
               url: /cli/v8/using-npm/orgs
               description: Working with teams & organizations
             - title: Dependency Selectors
@@ -1103,7 +988,7 @@
             - title: npm dist-tag
               url: /cli/v9/commands/npm-dist-tag
               description: Modify package distribution tags
-            - title: NPM中文网
+            - title: NPM中文文档
               url: /cli/v9/commands/npm-docs
               description: Docs for a package in a web browser maybe
             - title: npm doctor
@@ -1309,7 +1194,7 @@
             - title: Workspaces
               url: /cli/v9/using-npm/workspaces
               description: Working with workspaces
-            - title: Organizations
+            - title: 组织
               url: /cli/v9/using-npm/orgs
               description: Working with teams & organizations
             - title: Dependency Selectors
@@ -1373,7 +1258,7 @@
             - title: npm dist-tag
               url: /cli/v10/commands/npm-dist-tag
               description: Modify package distribution tags
-            - title: NPM中文网
+            - title: NPM中文文档
               url: /cli/v10/commands/npm-docs
               description: Docs for a package in a web browser maybe
             - title: npm doctor
@@ -1579,7 +1464,7 @@
             - title: Workspaces
               url: /cli/v10/using-npm/workspaces
               description: Working with workspaces
-            - title: Organizations
+            - title: 组织
               url: /cli/v10/using-npm/orgs
               description: Working with teams & organizations
             - title: Dependency Selectors
@@ -1594,3 +1479,119 @@
             - title: Changelog
               url: /cli/v10/using-npm/changelog
               description: Changelog notes for each version
+- title: 集成
+  url: /integrations
+  children:
+    - title: npm与外部服务集成
+      shortName: Integrating with external services
+      url: /integrations/integrating-npm-with-external-services
+      children:
+        - title: About access tokens
+          url: /about-access-tokens
+        - title: Creating and viewing access tokens
+          url: /creating-and-viewing-access-tokens
+        - title: Revoking access tokens
+          url: /revoking-access-tokens
+        - title: Using private packages in a CI/CD workflow
+          url: /using-private-packages-in-a-ci-cd-workflow
+        - title: Docker and private modules
+          url: /docker-and-private-modules
+- title: 组织
+  url: /organizations
+  children:
+    - title: 创建、管理组织
+      shortName: Creating
+      url: /organizations/creating-and-managing-organizations
+      children:
+        - title: Creating an organization
+          url: /creating-an-organization
+        - title: Converting your user account to an organization
+          url: /converting-your-user-account-to-an-organization
+        - title: Requiring two-factor authentication in your organization
+          url: /requiring-two-factor-authentication-in-your-organization
+        - title: Renaming an organization
+          url: /renaming-an-organization
+        - title: Deleting an organization
+          url: /deleting-an-organization
+    - title: 组织的支付
+      shortName: Paying
+      url: /organizations/paying-for-your-organization
+      children:
+        - title: Upgrading to a paid organization plan
+          url: /upgrading-to-a-paid-organization-plan
+        - title: Viewing, downloading, and emailing receipts for your organization
+          url: /viewing-downloading-and-emailing-receipts-for-your-organization
+        - title: Updating organization billing settings
+          url: /updating-organization-billing-settings
+        - title: Downgrading to a free organization plan
+          url: /downgrading-to-a-free-organization-plan
+    - title: 管理组织成员
+      shortName: Managing members
+      url: /organizations/managing-organization-members
+      children:
+        - title: Adding members to your organization
+          url: /adding-members-to-your-organization
+        - title: Accepting or rejecting an organization invitation
+          url: /accepting-or-rejecting-an-organization-invitation
+        - title: Organization roles and permissions
+          url: /organization-roles-and-permissions
+        - title: Managing organization permissions
+          url: /managing-organization-permissions
+        - title: Removing members from your organization
+          url: /removing-members-from-your-organization
+    - title: 管理团队
+      url: /organizations/managing-teams
+      children:
+        - title: About the developers team
+          url: /about-developers-team
+        - title: Creating teams
+          url: /creating-teams
+        - title: Adding organization members to teams
+          url: /adding-organization-members-to-teams
+        - title: Removing organization members from teams
+          url: /removing-organization-members-from-teams
+        - title: Managing team access to organization packages
+          url: /managing-team-access-to-organization-packages
+        - title: Removing teams
+          url: /removing-teams
+    - title: 管理组织的包
+      shortName: Managing packages
+      url: /organizations/managing-organization-packages
+      children:
+        - title: About organization scopes and packages
+          url: /about-organization-scopes-and-packages
+        - title: Configuring your npm client with your organization settings
+          url: /configuring-your-npm-client-with-your-organization-settings
+        - title: Creating and publishing an organization scoped package
+          url: /creating-and-publishing-an-organization-scoped-package
+- title: 政策与协议
+  url: /policies
+  children:
+    - title: 使用条款
+      url: /policies/terms
+    - title: 开源条款
+      url: /policies/open-source-terms
+    - title: 付费条款
+      url: /policies/private-terms
+    - title: 行为准则
+      url: /policies/conduct
+    - title: 包名争议
+      url: /policies/disputes
+    - title: 开源许可
+      url: /policies/npm-license
+    - title: 隐私政策
+      url: /policies/privacy
+    - title: 撤销已发布包的政策
+      url: /policies/unpublish
+    - title: 版权和DMCA政策
+      url: /policies/dmca
+    - title: 标志和用途
+      url: /policies/logos-and-usage
+    - title: 安全协议
+      url: /policies/security
+    - title: 复制和网络爬虫政策
+      url: /policies/crawlers
+- title: 潜在威胁与改善措施
+  shortName: 潜在威胁与改善措施
+  url: /threats-and-mitigations
+
